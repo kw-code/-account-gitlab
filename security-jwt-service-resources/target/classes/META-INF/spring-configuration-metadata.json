@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa.key",
+      "type": "com.snow.domain.RsaKeyProperties",
+      "sourceType": "com.snow.domain.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.key.pub-key-file",
+      "type": "java.lang.String",
+      "sourceType": "com.snow.domain.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.key.public-key",
+      "type": "java.security.PublicKey",
+      "sourceType": "com.snow.domain.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}
